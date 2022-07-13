@@ -13,7 +13,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    guard  let ventana2 = segue.destnation as?
+    Ventana2Controller else {return}
+    ventana2.nombre =
 
 }
 
